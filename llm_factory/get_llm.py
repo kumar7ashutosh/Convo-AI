@@ -12,5 +12,5 @@ def get_ollama_llm(model_name:str):
         return _current_llm_instance
     llm=Ollama(base_url=OLLAMA_URL,model=model_name)
     _current_model_name=model_name
-    _current_llm_instance=_current_llm_instance
+    _current_llm_instance=llm
     return llm
