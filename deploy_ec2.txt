@@ -1,0 +1,3 @@
+ssh -i "ec2-key-pair.pem" ubuntu@ec2-44-210-99-127.compute-1.amazonaws.com
+
+sudo apt install python3-venv
